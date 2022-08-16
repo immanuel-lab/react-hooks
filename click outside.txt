@@ -1,0 +1,8 @@
+  useEffect(() => {
+      document.addEventListener("mousedown", 
+      (event) => {
+        if (!domNode.current.contains(event.target)) {
+         setShow(false);
+        }
+      });
+      });
